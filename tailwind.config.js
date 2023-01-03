@@ -10,6 +10,9 @@ module.exports = {
         success: '#0070f3',
         cyan: '#79FFE1',
       },
+      backgroundImage: {
+        'footer': "url('../public/assets/blog/bg_footer.webp')",
+      },
       spacing: {
         28: '7rem',
       },
