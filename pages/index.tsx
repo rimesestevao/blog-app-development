@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Blog {CMS_NAME}</title>
+          <title>Unvanishing Estúdio</title>
         </Head>
         <Container>
           <Intro />
