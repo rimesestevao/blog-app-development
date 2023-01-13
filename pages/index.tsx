@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Unvanishing Estúdio</title>
+          <title>MEES Estúdio</title>
         </Head>
         <Container>
           <Intro />
