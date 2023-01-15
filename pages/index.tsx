@@ -1,44 +1,38 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
-import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
-import Post from '../interfaces/post'
+import React from 'react';
+import LandingPage from '../components/teste';
+import MoreStories from '../components/more-stories';
+import Post from '../interfaces/post';
+import { getAllPosts } from '../lib/api';
+import Footer from '../components/footer'
+
 
 type Props = {
   allPosts: Post[]
 }
 
-export default function Index({ allPosts }: Props) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+
+const index = ({ allPosts }) => {
+
+  const morePosts = allPosts.slice(0, 2)
+
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>MEES Estúdio</title>
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
-    </>
+    <div className='overflow-hidden bg-gray-100'>
+        <LandingPage/>
+        <div className='container mt-6 mx-auto px-5 '>
+          <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">What we do.</h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+<br/>
+Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+        </div>
+        <div className='container mt-12 mx-auto px-5 '>
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        </div>
+        <Footer />
+    </div>
   )
 }
+
+export default index
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts([

@@ -11,7 +11,8 @@ module.exports = {
         cyan: '#79FFE1',
       },
        backgroundImage: {
-        'tokyo': "url('../public/assets/tokyo.jpg')"
+        'japanesewave': "url('../public/assets/japanese_wave.jpg')",
+        'purplebg': "url('../public/assets/another_japanese.jpg')"
       },
       spacing: {
         28: '7rem',
