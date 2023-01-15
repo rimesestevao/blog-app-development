@@ -4,13 +4,13 @@ import { PATREON_PATH } from '../lib/constants'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#111111] border-t border-neutral-200">
+    <footer className="bg-[#191917] border-t border-neutral-200">
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h2 className="footer text-slate-50 text-4xl lg:text-[3rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+          <h2 className="footer text-slate-50 text-4xl lg:text-[3rem] font-bold tracking-tighter leading-tight text-center lg:text-left lg:pl-4 lg:w-1/2">
             MEES.
           </h2>
-          <div className="gap-y-3 flex flex-col lg:flex-col justify-center items-center lg:pl-4 lg:w-1/2">
+          <div className="gap-y-3 my-12 flex flex-col lg:flex-col justify-center items-center lg:pl-4 lg:w-1/2">
           <a
               href={`https://github.com/${EXAMPLE_PATH}`}
               className="mx-3 text-slate-50 font-bold hover:underline"
