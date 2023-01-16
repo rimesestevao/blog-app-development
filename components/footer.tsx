@@ -12,34 +12,34 @@ const Footer = () => {
           </h2>
           <div className="gap-y-3 my-12 flex flex-col lg:flex-col justify-center items-center lg:pl-4 lg:w-1/2">
           <a
-              href={`https://github.com/${EXAMPLE_PATH}`}
-              className="mx-3 text-slate-50 font-bold hover:underline"
+              href="/"
+              className="mx-3 text-2xl text-slate-50 font-bold hover:underline"
             >
-              Home
+              Início
             </a>
           <a
-              href={`https://github.com/${EXAMPLE_PATH}`}
-              className="mx-3 text-slate-50 font-bold hover:underline"
+              href="/blog/"
+              className="mx-3 text-2xl text-slate-50 font-bold hover:underline"
             >
               Blog
             </a>
           <a
-              href={`https://github.com/${EXAMPLE_PATH}`}
-              className="mx-3 text-slate-50 font-bold hover:underline"
+              href="/contato/"
+              className="mx-3 text-2xl text-slate-50 font-bold hover:underline"
             >
-              Contact
+              Contato
             </a>
           </div>
           <div className="gap-y-3 flex flex-col lg:flex-col justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href={`https://patreon.com/${PATREON_PATH}`}
-              className=" mx-3 bg-none hover:bg-white hover:text-black border border-white text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
+              className=" mx-3 text-lg bg-none hover:bg-white hover:text-black border border-white text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
               Patreon
             </a>
             <a
               href={`https://github.com/${EXAMPLE_PATH}`}
-              className="mx-3 text-slate-50 font-bold hover:underline"
+              className="mx-3 text-lg text-slate-50 font-bold hover:underline"
             >
               Twitch
             </a>

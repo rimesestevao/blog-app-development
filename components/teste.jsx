@@ -4,14 +4,14 @@ const LandingPage = () => {
   return (
     <div className='wrapper'>
 <div className=' text-center'>
-<h1 className='glitch'>MEES</h1>
+<h1 className='glitch'>MEES.</h1>
         {/* <p className='subHeader'>Eita! A little MESS</p> */}
 </div>
         <a
               href="/blog/"
               className="mt-12 mx-3 bg-none hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
-              See all our posts!
+              Acessar o Blog
             </a>
         {/* <div className='sideContainer'>
           <h3 className='sideText'>自</h3>
