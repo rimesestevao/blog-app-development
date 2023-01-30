@@ -9,22 +9,27 @@ author:
 ogImage:
   url: '/assets/blog/blog-post/cover.png'
 ---
+## O ínicio de tudo: blog com React, Next.js e Firebase
 
-Primeiramente bom dia / boa tarde / boa noite, me chamo Estevão, sou desenvolvedor e esse é o primeiro post deste blog feito com Next.JS, React e Tailwind. Vou contar como foi a jornada desse blog e quais situações eu faria diferente se tivesse a experiência desde o início.
+*Os pensamentos, necessidades e decisões de um desenvolver que gosta muito de jogos.*
 
+Olá! Meu nome é Estevão! E eu sou desenvolvedor: Este é o meu primeiro post neste blog, construído com Next.JS, React e Tailwind. Neste texto, pretendo compartilhar a jornada deste projeto e refletir, juntamente com quem estiver lendo, sobre as decisões que tomei e como as faria diferentemente.
+## Como tudo começou?
 
-## Como começou?
+Sou apaixonado por jogos e queria dedicar meu tempo livre para me decicar ao desenvolvimento de um projeto pessoal: um game que fosse referencia para o meu reconhecimento como desenvolvedor — e inicio de carreira como desenvolvedor de jogos. Durante minha extraordiária jornada de ideias, perguntei a mim mesmo: “Ok, mas como as pessoas podem ficar por dentro do desenvolvimento, tanto do jogo, quando do Estevão como desenvolvedor?”, e a primeira coisa que me veio à mente foi criar um canal na Twitch ou um blog.
 
-Como todo jovem dev por aí eu também sou fissurado em jogos e queria dedicar todo meu tempo livre para fazer um jogo pela qual eu fosse reconhecido, um jogo bom que mostrasse tudo que eu sei. Bom, o primeiro passo foi me perguntar: E como as pessoas vão saber q eu faço joguinho?
-A primeira coisa que passou pela minha cabeça foi um canal na twitch ou um blog, decidi logo fazer os dois. A primeira versão desse site foi feita apenas com React e firebase, todas as rotas, direcionamentos, cadastro e autenticação de usuário, posts e tudo o que há de bom nesse mundo foram feitas apenas com essas duas tecnologias. Todavia, porém entretanto eu ficava muito limitado usando somente o firebase.
-Como eu queria reatividade facilmente estourava o número de leituras no firebase, fora que seria difícil escalar sem gastar um centavo, daí eu decidi dividir as tarefas que o firebase exercia. Usei o Next para fazer as rotas e a dinamização da mesma, continuei com o React porém com Typescript e meti um tailwind no meio pra ficar mais simples de estilizar.
+Optei por fazer ambos!
 
-Depois de tudo isso foi só um barabim barabum de CSS e ficou bonitinho e escalável, a autenticação e segurança continuou por conta do firebase.
+## Decisões, indecisões e resultados.
 
-Apesar de parecer simples levei umas boas horas de estudos e pesquisar para encontrar uma maneira eficiência de fazer esse blog e MUITO MAIS TEMPO para deixar com a minha cara.
+A primeira versão deste site foi construída apenas com React e Firebase. Porém, rapidamente me vi limitado pelas funcionalidades do Firebase. Para evitar o estouro de leituras e facilitar a escalabilidade, decidi dividir as tarefas. Utilizei o Next para gerenciar as rotas e a dinâmica do site, continuei com o React, mas agora com TypeScript, e adicionei o Tailwind para tornar a estilização mais simples.
 
-## O que eu faria de diferente?
+A autenticação e segurança continuam a ser gerenciadas pelo Firebase. Embora pareça simples, levei algum tempo estudando e pesquisando para encontrar a melhor maneira de construir este blog de forma: 1) Que me agradesse vizualmente, e 2) Que fizasse sentido falando de usabilidade e navegação.
 
-Logo de cara já falo que iria usar tecnologias bem mais simples, como o meu objetivo era muito mais aprender não me importei com tempo e tals, mas para otimizar tempo eu provavelmente iria usar Wordpress para fazer o site inteiro. Não iria depender do firebase pra tudo também, acho que tem opções bem mais em conta e mais fáceis de usar como o Supabase que quero me aprofundar depois. No mais é isso, a partir de agora irei focar mais no desenvolvimento de jogos usando C# e Unity.
+## O que faria diferentemente?
 
-Até mais pessoal, e um beijo na nádega esquerda de todo mundo ai.
+Se tivesse a oportunidade, usaria tecnologias mais simples. Se o objetivo principal não fosse aprender e optimizar tempo, provavelmente optaria por usar o Wordpress para construir todo o site. Também não dependeria tanto do Firebase, pois há opções mais acessíveis e fáceis de usar, como o Supabase, que gostaria de explorar no futuro. Porém, o foco por aqui é aprender, reaprender e desenvolver habilidades, portanto, o tempo é o fator menos importante.
+
+A partir de agora, meu foco será o desenvolvimento de jogos com C# e Unity: deixarei vocês por dentro de tudo aqui, no blog. Espero que entrem nessa jornada junto comigo.
+
+Até a próxima, pessoal!
