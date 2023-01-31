@@ -1,13 +1,13 @@
 ---
-title: 'Blog com React, Next.js e Firebase'
+title: 'Blog com React e Next.js.'
 excerpt: 'Aqui eu conto passo a passo como foi a criação do blog utilizando React, Next.js e Firebase e o que faria de diferente.'
-coverImage: '/assets/blog/blog-post/cover.png'
+coverImage: '/assets/blog/blog-post/cover_new.webp'
 date: '2023-01-16T05:35:07.322Z'
 author:
   name: Estevão Almeida
-  picture: '/assets/blog/authors/eu.png'
+  picture: '/assets/blog/authors/eu.webp'
 ogImage:
-  url: '/assets/blog/blog-post/cover.png'
+  url: '/assets/blog/blog-post/cover_new.webp'
 ---
 ## O ínicio de tudo: blog com React, Next.js e Firebase
 
@@ -33,3 +33,5 @@ Se tivesse a oportunidade, usaria tecnologias mais simples. Se o objetivo princi
 A partir de agora, meu foco será o desenvolvimento de jogos com C# e Unity: deixarei vocês por dentro de tudo aqui, no blog. Espero que entrem nessa jornada junto comigo.
 
 Até a próxima, pessoal!
+
+**BJUNDA**
