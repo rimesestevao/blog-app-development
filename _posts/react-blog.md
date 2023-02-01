@@ -26,7 +26,7 @@ A primeira versão deste site foi construída apenas com React e Firebase. Poré
 
 A autenticação e segurança continuam a ser gerenciadas pelo Firebase. Embora pareça simples, levei algum tempo estudando e pesquisando para encontrar a melhor maneira de construir este blog de forma: 1) Que me agradesse vizualmente, e 2) Que fizasse sentido falando de usabilidade e navegação.
 
-## O que faria diferentemente?
+## O que faria diferente?
 
 Se tivesse a oportunidade, usaria tecnologias mais simples. Se o objetivo principal não fosse aprender e optimizar tempo, provavelmente optaria por usar o Wordpress para construir todo o site. Também não dependeria tanto do Firebase, pois há opções mais acessíveis e fáceis de usar, como o Supabase, que gostaria de explorar no futuro. Porém, o foco por aqui é aprender, reaprender e desenvolver habilidades, portanto, o tempo é o fator menos importante.
 
