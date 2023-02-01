@@ -22,10 +22,17 @@ const index = ({ allPosts }) => {
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </div>
         <div className='container mb-12 mt-6 mx-auto px-12 '>
-          <h2 className="my-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">O que eu faço?</h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+          <h2 className="my-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">Quem sou eu?</h2>
+          Olá! Meu nome é Estevão e eu sou um desenvolvedor web. Tenho 2 anos de experiência em desenvolvimento web focado em <strong>React</strong> e <strong>Svelte</strong> para o front-end e <strong>C#</strong> para o back-end. A 4 anos procuro ampliar meus conhecimentos como desenvolvedor fullstack através dos meus estudos, que ocasionaram o surgimento desse blog.
           <br/>
-          Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+          Apaixonado por game design e game development, esse blog surgiu com o intuito de mostrar meus estudos e minhas decisões para toda a comunidade de desenvolvedores, em busca sempre de melhorar minhas habilidades em áreas já dominadas e, com certeza, mostrar minha jornada aprendendo e iniciando um game do zero. 
+          Convido os visitante a dar uma conferida no meu trabalho: gosto de receber feedbacks e saber quais pontos podem ser melhorados.
+          <br/>
+          <br/>
+          Se quiserem saber mais sobre mim vou deixar minhas redes socias e meu contato logo abaixo.
+          <br/>
+          <br/>
+          <strong>BJUNDA.</strong>
         </div>
         <Footer />
     </div>
